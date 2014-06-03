@@ -11,6 +11,7 @@ Plugin 'gmarik/Vundle.vim'
 " List of plugins
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
 "Plugin 'tpope/vim-surround'
 Plugin 'spf13/PIV'
