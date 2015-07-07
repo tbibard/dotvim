@@ -3,12 +3,12 @@ set nocompatible
 
 " Vundle
 filetype off
-
 set rtp+=~/.vim/bundle/Vundle.vim/
-call vundle#rc()
+call vundle#begin()
 " Vundle gère vundle, c'est obligatoire.
-Plugin 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 " List plugins
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree' 
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
@@ -19,6 +19,7 @@ Plugin 'evidens/vim-twig'
 Plugin 'MarcWeber/vim-addon-mw-utils' " snipmate
 Plugin 'tomtom/tlib_vim' "snipmate
 Plugin 'garbas/vim-snipmate'
+call vundle#end() 
 
 " -- Affichage
 set title " Met a jour le titre de votre fenetre ou de votre terminal
