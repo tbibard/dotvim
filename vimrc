@@ -13,6 +13,7 @@ Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 "Plugin 'tpope/vim-surround'
+Plugin 'majutsushi/tagbar'
 Plugin 'spf13/PIV'
 Plugin 'vim-scripts/Align'
 Plugin 'mattn/emmet-vim'
@@ -43,6 +44,8 @@ set expandtab
 set textwidth=80
 set cc=+1
 
+let mapleader = ","
+
 " NERDTree
 map <C-e> :NERDTreeToggle<CR>
 map <leader>e :NERDTreeFind<CR>
@@ -55,6 +58,8 @@ let NERDTreeMouseMode=2
 let NERDTreeShowHidden=1
 let NERDTreeKeepTreeInNewTab=1
 let g:nerdtree_tabs_open_on_gui_startup=0
+
+nmap <F8> :TagbarToggle<CR>
 
 " Airline config
 set laststatus=2
